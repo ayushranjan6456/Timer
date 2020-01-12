@@ -1,0 +1,56 @@
+<!DOCTYPE HTML> 
+<html> 
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="icon" href="assets/favicon.jpg" type="image/gif" sizes="16x16">
+  <link rel="stylesheet" href="style.css" type="text/css">
+<title>
+  Timer
+</title> 
+</head> 
+<body> 
+<h1>CountDown Timer</h1>
+<div class="container">
+  <div> 
+    <input type="number" id="inputHour" value="0">
+    <div class="bottomText">Hours</div> 
+  </div> 
+  <span id="colon">:</span>
+  <div> 
+    <input type="number" id="inputMinute" value="0" max="60">
+    <div class="bottomText">Minutes</div> 
+  </div>  
+  <span id="colon">:</span> 
+  <div> 
+    <input type="number" id="inputSecond" value="0" max="60">
+    <div class="bottomText">Seconds</div> 
+  </div> 
+</div>
+<br>
+<br>
+<img src="assets/start.png"  class="btn Start" id="startBtn" onclick="start();" alt="start" title="Start">
+<img src="assets/reset.png" class="btn"  onclick="window.location.reload();" alt="Reset" title="Reset">
+<br>
+<br>
+<div class="container timer" id="timer"> 
+  <div> 
+    <span id="hour">0</span> 
+    <div class="bottomText">Hours</div> 
+  </div> 
+  <span id="colon">:</span>
+  <div> 
+    <span id="minute">0</span> 
+    <div class="bottomText">Minutes</div> 
+  </div> 
+  <span id="colon">:</span>
+  <div> 
+    <span id="second">0</span> 
+    <div class="bottomText">Seconds</div> 
+  </div> 
+</div>   
+<p id="demo"></p>
+<script src="app.js"> </script> 
+</body> 
+</html>

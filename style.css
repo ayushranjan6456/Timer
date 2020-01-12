@@ -1,0 +1,112 @@
+body{ 
+  text-align: center; 
+  background-image: url("assets/back.png"); 
+  background-size: cover;
+  font-family: sans-serif; 
+  font-weight: 100;
+  margin:0; 
+  overflow-x: hidden;
+} 
+h1{ 
+color: rgb(181, 237, 247); 
+font-weight: 200;   
+font-size: 2.2em; 
+font-family: 'Arvo','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-shadow: rgb(181, 237, 247);
+text-align: center;
+width: 100%;
+margin: 20px 0px 20px;
+background-color:rgb(5, 5, 31);
+margin-top: 0;  
+padding: 20px;
+} 
+
+input{
+  padding: 1.5em; 
+  border-radius: 3px; 
+  background: linear-gradient(20deg, rgb(0, 0, 0), rgba(245, 252, 231, 0.877));
+  display: inline-block; 
+  color:rgb(255, 255, 255);
+  border:none;
+} 
+
+.div{ 
+  font-family: sans-serif; 
+  color: #17252A; 
+  display: inline-block; 
+  font-weight: 100; 
+  text-align: center; 
+  font-size: 30px; 
+} 
+.container > div{ 
+  margin: 15px;
+  padding: 10px; 
+  border-radius: 3px;
+  min-width: 100px; 
+  background: #2E9CCA;
+  display: inline-block;
+  box-shadow: 0px 2px 5px rgb(0, 0, 0); 
+  border-radius: 10%;
+} 
+.container div > span{ 
+  padding: 15px; 
+  border-radius: 3px; 
+  font-size: 2.14em;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(20deg, rgb(0, 0, 0), rgba(245, 252, 231, 0.877));
+  display: inline-block; 
+} 
+
+.bottomText{ 
+  padding: 15px;
+  font-size: 20px;
+  color: rgb(211, 243, 255);
+  font-weight: 700;
+ 
+} 
+
+#colon{
+  color: rgb(0, 0, 0);
+  text-shadow: 0px 0px 2px rgb(0, 0, 0);
+  font-size: 2.5em;
+}
+
+.btn{
+  height: 100px;
+  width: 100px;
+  margin: 10px 50px 10px 50px;  
+  cursor: pointer;;  
+  visibility: 0.9;
+  border-radius: 50%;
+  box-shadow: 0px 2px 5px rgb(0, 0, 0);
+}
+
+
+#demo{
+  font-size: 80px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(219, 44, 44);
+}
+
+.btn:hover{
+  opacity:1;
+  height: 100px;
+  width: 100px;
+  box-shadow: 1px 3px 6px 1px rgb(0, 0, 0);
+}
+
+.btn:active{
+  opacity: 0.3;
+  height: 100px;
+  width: 100px;
+  box-shadow: 0px 2px 5px rgb(0, 0, 0);
+}
+
+.clicked, .clicked:hover{
+  height: 100px;
+  width: 100px;
+  margin: 10px 50px 10px 50px;
+  opacity: 0.4;
+  box-shadow: 0px 2px 5px rgb(0, 0, 0);
+  cursor: not-allowed;
+}
