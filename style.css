@@ -133,7 +133,7 @@ input{
   }
   .container > div{ 
     margin: auto;
-    margin: 15px 35px;
+    margin: 15px 15px;
     padding: 10px; 
     border-radius: 3px; 
     background: #2E9CCA;
