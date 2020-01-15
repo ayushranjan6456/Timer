@@ -129,6 +129,9 @@ input{
   .container > div{ 
     margin: 15px 52px;
   } 
+  .timer > div{ 
+    margin: 15px 12px;
+  } 
   span{
     display: none;
   }
@@ -154,25 +157,25 @@ input{
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 710px) {
   
-  .container > div{ 
+  .timer > div{ 
     margin: 15px 5px;
     min-width: 125px;
   } 
 }
 
-@media only screen and (max-width: 426px) {
+@media only screen and (max-width: 633px) {
   
-  .container > div{ 
-    margin: 15px 15px;
+  .timer > div{ 
+    margin: 15px 35px;
   } 
   input{
     width: 10px;
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 440px) {
   
   .container > div{ 
     margin: 15px 5px;
