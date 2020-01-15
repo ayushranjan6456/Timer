@@ -124,6 +124,16 @@ input{
   }
 }
 
+@media only screen and (max-width: 987px) {
+  
+  .container > div{ 
+    margin: 15px 52px;
+  } 
+  span{
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .btn{
     margin:25px;
